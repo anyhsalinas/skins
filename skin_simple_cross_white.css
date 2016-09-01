@@ -1,4 +1,4 @@
-﻿/**
+/**
 
 
 
@@ -21,9 +21,10 @@
 
 **/
 
+@font-face {font-family: 'Baumans'; font-style: normal; font-weight: 400; src: local('Baumans'), local('Baumans-Regular'), url(http://fonts.gstatic.com/s/baumans/v5/wUCl3MlBd3lTlYyjq93hYg.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;}
 
-#player,#player a{ color: #222; font-size: 11px; font-family: 'helvetica', sans-serif;}
-#player{ background: none; background-position:bottom; font-size: 11px; font-family: 'helvetica', sans-serif; color:#000}
+#player,#player a{ color: #222; font-size: 11px; font-family: 'Baumans', sans-serif;}
+#player{ background: none; background-position:bottom; font-size: 11px; font-family: 'Baumans', sans-serif; color:#000}
 #player .mainImage{ background:url('https://31.media.tumblr.com/6c0f533bf0f85437cac47c707f5c167f/tumblr_inline_ngugikhmhN1r2thyr.png'); }
 
 #player #baseLeft{ width:93px; }
@@ -48,9 +49,19 @@
 
 #playlist,#playlist .module,#playlist h3{ border-color: none; background: none; color: #000;}
 #playlist .module{  color:#000; background-color: none; }
+#playlist .module ol {list-style: none; margin-top: 5px;}
+#playlist .module ol  li{padding: 5px; font-size: 9px; transition: .9s;}
+#playlist .module ol  li:hover {letter-spacing: 1px;}
+
 #playlist h3{background:#000; color: #fff;}
-#playlist .even{}
-#playlist .odd{}
+#playlist h3:after {content: "© anyhs-themes.tumblr.com"; float: right; font-size: 8px; text-transform: uppercase;}
+
+#playlist .even{font-family: 'Baumans', Helvetica, sans-serif; }
+#playlist .even:before {content: "♦"; margin-left: 0px; margin-right: 2px;}
+
+#playlist .odd{font-family: 'Baumans', Helvetica, sans-serif; }
+#playlist .odd:before {content: "♦"; margin-left: 0px; margin-right: 2px;}
+
 #playlist .focus{ color:#000; background: rgba(0,0,0,.3); font-weight: bold;}
 
 /**
