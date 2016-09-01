@@ -1,4 +1,4 @@
-<h1>Terms of use to all my skins:</h1>
+<h3>Terms of use to all my skins:</h3>
 
 - Don't redistribute;
 - Don't copy;
