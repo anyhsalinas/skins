@@ -28,7 +28,7 @@
 #player #list{ right:0px; }
 
 #player #seeker{ right:320px;}
-#player #seekerBase{ background: #fff;}
+#player #seekerBase{ background: #fff; opacity: .5;}
 #player #seekerBuffered{background: #fff; opacity: .5;}
 #player #seekerSliderBase{ background-color:#fff;}
 
@@ -50,7 +50,7 @@
 #playlist .odd{font-family: 'Baumans', Helvetica, sans-serif; }
 #playlist .odd:before {content: "♦"; margin-left: 0px; margin-right: 2px;}
 
-#playlist .focus{ color:#fff; background: rgba(0,0,0,.3); font-weight: bold;}
+#playlist .focus{ color:#fff; background: #222; font-weight: bold;}
 
 /**
 	© 2016 — www.anyhs-themes.tumblr.com
