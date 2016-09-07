@@ -28,7 +28,7 @@
 #player #list{ right:0px; }
 
 #player #seeker{ right:320px;}
-#player #seekerBase{ background: none;}
+#player #seekerBase{ background: #000;}
 #player #seekerBuffered{background: #fff; opacity: .5;}
 #player #seekerSliderBase{ background-color:#fff;}
 
@@ -36,7 +36,7 @@
 #player #volumeSlider{ width: 5px; height: 10px; margin-top: 7px; background: #fff;}
 
 #playlist,#playlist .module,#playlist h3{ border-color: none; background: #000; color: #fff;}
-#playlist .module{  color:#fff; background-color: none; }
+#playlist .module{  color:#fff; background-color: #000; }
 #playlist .module ol {list-style: none; margin-top: 5px;}
 #playlist .module ol  li{padding: 5px; font-size: 12px; transition: .9s;}
 #playlist .module ol  li:hover {letter-spacing: 1px;}
