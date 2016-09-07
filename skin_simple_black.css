@@ -28,7 +28,7 @@
 #player #list{ right:0px; }
 
 #player #seeker{ right:320px;}
-#player #seekerBase{ background-color: #000;}
+#player #seekerBase{ background-color: #f00;}
 #player #seekerBuffered{ background-color: #222;}
 #player #seekerSliderBase{ background-color:#fff;}
 
