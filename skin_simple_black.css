@@ -11,7 +11,7 @@
 
 @font-face {font-family: 'Baumans'; font-style: normal; font-weight: 400; src: local('Baumans'), local('Baumans-Regular'), url(http://fonts.gstatic.com/s/baumans/v5/wUCl3MlBd3lTlYyjq93hYg.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;}
 
-#player,#player a{ color: #aaa; font-size: 12px; font-family: 'Baumans', sans-serif;}
+#player,#player a{ color: #fff; font-size: 12px; font-family: 'Baumans', sans-serif;}
 #player{ background: #000; background-position:bottom; font-size: 12px; font-family: 'Baumans', sans-serif; color:#fff; margin-left: -5px;}
 #player .mainImage{ background:url('https://66.media.tumblr.com/2bd414bfb0b7dd18bb0dda8ad1b89054/tumblr_oczr16FJWJ1skyizio3_400.jpg'); }
 
@@ -28,14 +28,14 @@
 #player #list{ right:0px; }
 
 #player #seeker{ right:320px;}
-#player #seekerBase{ background: #000;}
+#player #seekerBase{ background: #fff;}
 #player #seekerBuffered{background: #fff; opacity: .5;}
 #player #seekerSliderBase{ background-color:#fff;}
 
 #player #volume{ width:65px; right:39px; }
 #player #volumeSlider{ width: 5px; height: 10px; margin-top: 7px; background: #fff;}
 
-#playlist,#playlist .module,#playlist h3{ border-color: none; background: #000; color: #fff;}
+#playlist,#playlist .module,#playlist h3{ border: none; background: #000; color: #fff;}
 #playlist .module{  color:#fff; background-color: #000; }
 #playlist .module ol {list-style: none; margin-top: 5px;}
 #playlist .module ol  li{padding: 5px; font-size: 12px; transition: .9s;}
