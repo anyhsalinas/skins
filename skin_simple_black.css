@@ -28,8 +28,8 @@
 #player #list{ right:0px; }
 
 #player #seeker{ right:320px;}
-#player #seekerBase{ background-color: #fff; opacity: .5;}
-#player #seekerBuffered{ background-color: #222; opacity: 1;}
+#player #seekerBase{ }
+#player #seekerBuffered{ background-color: #222;}
 #player #seekerSliderBase{ background-color:#fff;}
 
 #player #volume{ width:65px; right:39px; }
