@@ -27,9 +27,9 @@
 #player #play,#player #pause{ left:25px; }
 #player #previous{ left:0px; width: 26px;}
 #player #next{ left:52px; width: 26px;}
-#player #title{ left:78px; margin-top: 8px;}
-#player #tooltip{ right:196px; }
-#player #timer{ right:120px;  margin-top: 8px;}
+#player #title{ left:78px; margin-top: 1px;}
+#player #tooltip{ right:196px; margin-top: 10px;}
+#player #timer{ right:120px;  margin-top: 1px;}
 #player #list{ right:0px; }
 
 #player #seeker{ right:320px;}
