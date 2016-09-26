@@ -32,7 +32,7 @@
 #player #seeker{right:271px;}
 #player #seekerBase{background: none; border-radius: 2px;}
 #player #seekerBuffered{background: #000; opacity: .2;}
-#player #seekerSliderBase{background-color:#000; width: 2px;}
+#player #seekerSliderBase{background:#000; width: 2px; margin: 0px 2px; border-radius: 0px;}
 
 #player #tooltip{right:151px; margin-top: 2px;}
 #player #timer{right:101px;  margin-top: 2px;}
