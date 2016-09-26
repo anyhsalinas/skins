@@ -24,7 +24,7 @@
 #player .button {width: 19px;}
 #player #play{background:url('https://anyhsalinas.github.io/skins/pixel-lotus/pixel-lotus-1-play.jpg');}
 #player #pause {background:url('https://anyhsalinas.github.io/skins/pixel-lotus/pixel-lotus-1-pause.jpg');}
-#player #pause, #player #play {left:16px; width: 30px; background: #f00}
+#player #pause, #player #play {left:16px; width: 30px; background: rgba(0,0,0,.3);}
 #player #previous{left:0px; width: 16px;}
 #player #next{left:38px; width: 16px;}
 #player #title, #player #jp-title {left:57px; margin-top: 2px;}
