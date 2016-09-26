@@ -37,7 +37,7 @@
 #player #tooltip{ right:171px; margin-top: 2px;}
 #player #timer{ right:101px;  margin-top: 2px;}
 
-#player #volume{ width:65px; height: 8px; margin-top: 8px; right:21px; background: #f00; border-radius: 2px; border: 1px solid #000;}
+#player #volume{ width:65px; height: 8px; margin-top: 8px; right:21px; border-radius: 2px; border: 1px solid #000;}
 #player #volumeSlider{ width: 2px; height: 8px; margin-top: 0px; background: #000;}
 
 #player #list{ right:0px; }
