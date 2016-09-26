@@ -21,7 +21,7 @@
 
 #player #baseLeft{width:93px; }
 #player #baseRight{width:145px;}
-#player .button {width: 26px;}
+#player .button {left:16px; width: 26px;}
 #player #play{background:url('https://anyhsalinas.github.io/skins/pixel-lotus/pixel-lotus-1-play.jpg'); margin-left: -2px;}
 #player #pause {background:url('https://anyhsalinas.github.io/skins/pixel-lotus/pixel-lotus-1-pause.jpg');}
 #player #play, #player #pause {left:16px; width: 19px;}
