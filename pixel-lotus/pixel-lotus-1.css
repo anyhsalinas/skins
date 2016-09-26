@@ -38,7 +38,7 @@
 #player #timer{ right:96px;  margin-top: 2px;}
 
 #player #volume{ width:65px; right:26px; }
-#player #volumeSlider{ width: 5px; height: 9px; margin-top: 8px; background: #000;}
+#player #volumeSlider{ width: 2px; height: 9px; margin-top: 8px; background: #000;}
 
 #player #list{ right:0px; }
 
