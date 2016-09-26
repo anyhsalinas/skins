@@ -33,7 +33,7 @@
 #player #list{ right:0px; }
 
 #player #seeker{ right:320px;}
-#player #seekerBase{ background: none;  border-radius: 3px;}
+#player #seekerBase{ background: none;  border-radius: 2px;}
 #player #seekerBuffered{background: #000; opacity: .2;}
 #player #seekerSliderBase{ background-color:#000;}
 
