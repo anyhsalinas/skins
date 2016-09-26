@@ -1,4 +1,4 @@
-﻿/**
+/**
 
 
 	Skin: Pixel Lotus 1
@@ -16,7 +16,7 @@
 @font-face {font-family: 'Baumans'; font-style: normal; font-weight: 400; src: local('Baumans'), local('Baumans-Regular'), url(http://fonts.gstatic.com/s/baumans/v5/wUCl3MlBd3lTlYyjq93hYg.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;}
 
 #player,#player a{ color: #000; font-size: 10px; font-family: 'Baumans', sans-serif;}
-#player{ background: none; background-position:bottom; font-size: 12px; font-family: 'Baumans', sans-serif; color:#000; margin-left: -5px;}
+#player{ background: none; background-position:bottom; font-size: 12px; font-family: 'Baumans', sans-serif; color:#000;}
 #player .mainImage{ background:url('https://raw.githubusercontent.com/anyhsalinas/skins/master/imgs/pixel-lotus-1-corpo.jpg'); }
 
 #player #baseLeft{ width:93px; }
@@ -27,20 +27,19 @@
 #player #play,#player #pause{ left:25px; }
 #player #previous{ left:0px; width: 26px;}
 #player #next{ left:52px; width: 26px;}
-#player #title{ left:78px; margin-bottom: -2px;}
+#player #title{ left:78px; margin-top: 8px;}
 #player #tooltip{ right:196px; }
-#player #timer{ right:120px;  margin-bottom: -2px;}
+#player #timer{ right:120px;  margin-top: 8px;}
 #player #list{ right:0px; }
 
-#player #seeker{ right:320px; border-radius: 3px;}
-#player #seekerBase{ background: none;}
-#player #seekerBuffered{background: #000; opacity: .1;}
+#player #seeker{ right:320px;}
+#player #seekerBase{ background: none;  border-radius: 3px;}
+#player #seekerBuffered{background: #000; opacity: .2;}
 #player #seekerSliderBase{ background-color:#000;}
 
 #player #volume{ width:65px; right:39px; }
 #player #volumeSlider{ width: 5px; height: 9px; margin-top: 8px; background: #000;}
 
-#playlist,#playlist .module,#playlist h3{ border-color: none; background: none; color: #000;}
 #playlist .module{ color:#000; background-color: none; font-size: 12px;}
 #playlist .module ol {list-style: none; margin-top: 5px;}
 #playlist .module ol  li{padding: 5px; font-size: 12px; transition: .9s;}
@@ -53,12 +52,12 @@
 #playlist .even:before {content: "♦"; margin-left: 0px; margin-right: 2px;}
 
 #playlist .odd {font-family: 'Baumans', sans-serif; }
-#playlist .ood:before {content: "♦"; margin-left: 0px; margin-right: 2px;}
+#playlist .odd:before {content: "♦"; margin-left: 0px; margin-right: 2px;}
 
 #playlist .focus{ color:#000; font-weight: bold;}
 
-#playlist::-webkit-scrollbar {width: 5px; height: 5px; background: #fff;}
-#playlist::-webkit-scrollbar-thumb {background: #000; border: 2px solid #fff;}
+::-webkit-scrollbar {width: 5px; height: 5px; background: #fff;}
+::-webkit-scrollbar-thumb {background: #000; border: 2px solid #fff;}
 
 /**
 
