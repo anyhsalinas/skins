@@ -17,13 +17,13 @@
 
 #player,#player a{color: #000; font-size: 10px; font-family: 'Baumans', sans-serif; cursor: pointer;}
 #player{background: none; background-position:top left; font-size: 12px; font-family: 'Baumans', sans-serif; color:#000;}
-#player .mainImage{background:url('https://raw.githubusercontent.com/anyhsalinas/skins/master/pixel-lotus/pixel-lotus-1.jpg'); }
+#player .mainImage{background:url('https://anyhsalinas.github.io/skins/pixel-lotus/pixel-lotus-1.jpg'); }
 
 #player #baseLeft{width:93px; }
 #player #baseRight{width:145px;}
 #player .button {width: 26px;}
-#player #play{background:url('https://raw.githubusercontent.com/anyhsalinas/skins/master/pixel-lotus/pixel-lotus-1-play.jpg');}
-#player #pause {background:url('https://raw.githubusercontent.com/anyhsalinas/skins/master/pixel-lotus/pixel-lotus-1-pause.jpg');}
+#player #play{background:url('https://anyhsalinas.github.io/skins/pixel-lotus/pixel-lotus-1-play.jpg');}
+#player #pause {background:url('https://anyhsalinas.github.io/skins/pixel-lotus/pixel-lotus-1-play.jpg');}
 #player #play, #player #pause {left:16px; width: 19px;}
 #player #previous{left:0px; width: 16px;}
 #player #next{left:38px; width: 16px;}
