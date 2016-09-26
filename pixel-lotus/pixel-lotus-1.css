@@ -22,14 +22,14 @@
 #player #baseLeft{ width:93px; }
 #player #baseRight{ width:145px;}
 #player .button{  width:19px; }
-#player #play{ background:url('https://raw.githubusercontent.com/anyhsalinas/skins/master/imgs/pixel-lotus-1-pause.jpg'); }
-#player #pause {background:url('https://raw.githubusercontent.com/anyhsalinas/skins/master/imgs/pixel-lotus-1-play.jpg'); }
+#player #play{ background:url('https://raw.githubusercontent.com/anyhsalinas/skins/master/imgs/pixel-lotus-1-pause.jpg'); background-position: top left;}
+#player #pause {background:url('https://raw.githubusercontent.com/anyhsalinas/skins/master/imgs/pixel-lotus-1-play.jpg'); background-position: top left;}
 #player #play,#player #pause{ left:16px; }
 #player #previous{ left:0px; width: 16px;}
 #player #next{ left:40px; width: 16px;}
 #player #title, #player #jp-title { left:56px; margin-top: 2px;}
 
-#player #seeker{ right:361px;}
+#player #seeker{ right:271px;}
 #player #seekerBase{ background: none; border-radius: 2px;}
 #player #seekerBuffered{background: #000; opacity: .2;}
 #player #seekerSliderBase{ background-color:#000; width: 2px;}
