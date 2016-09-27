@@ -49,8 +49,8 @@
 #player #seekerBuffered{background: transparent;}
 #player #seekerSliderBase{background: transparent;}
 
-#player #volume{right: 76px; width: 50px; height: 10px; border: 1px solid #000; border-radius: 3px; margin-top: 8px;}
-#player #volumeSlider{width: 2px; height: 10px; background: #000;}
+#player #volume{right: 76px; width: 40px; height: 5px; border: 1px solid #000; border-radius: 3px; margin-top: 8px;}
+#player #volumeSlider{width: 2px; height: 5px; background: #000;}
 
 #playlist {font-family: 'Baumans', Helvetica, sans-serif; font-size: 12px; border: none; outline: none;}
 #playlist,#playlist .module,#playlist h3{border: none;}
