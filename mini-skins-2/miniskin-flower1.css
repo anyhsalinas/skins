@@ -67,7 +67,7 @@
 #playlist .odd{font-family: 'Baumans', Helvetica, sans-serif; }
 #playlist .odd:before {content: "♦"; margin-left: 0px; margin-right: 2px;}
 
-#playlist .focus{background: black; color: white; font-family: 'Baumans', Helvetica, sans-serif; letter-spacing: 2px;}
+#playlist .focus{background: #777; color: #fff; font-family: 'Baumans', Helvetica, sans-serif; letter-spacing: 2px;}
 #playlist .focus:before {content: "♦"; margin-left: 0px; margin-right: 2px;}
 
 ::-webkit-scrollbar {width: 10px; height: 10px; background: transparent;}
