@@ -28,13 +28,13 @@
 
 #player, #player a{color: transparent;}
 #player{background: transparent; font-size: 10px; font-family: 'Baumans', Helvetica, sans-serif; text-transform: uppercase;}
-#player .mainImage{background: url('https://36.media.tumblr.com/7f05c6169bfcbfa715a4393d7b3ffdc0/tumblr_inline_o4aau0bghb1r2thyr_540.png');}
+#player .mainImage{background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-2/miniskin-flower-1-body.png');}
 
 #player #baseLeft{width: 93px;}
 #player #baseRight{width: 145px;}
 #player .button{width: 26px;}
-#player #play{background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/pixel-lotus/pixel-lotus-1-play.jpg');}
-#player #pause{background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/pixel-lotus/pixel-lotus-1-pause.jpg');}
+#player #play{background: url('');}
+#player #pause{background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-2/miniskin-flower-1-pause.png');}
 #player #play,#player #pause{left: 5px; width: 19px;}
 #player #previous{left: 22px; width: 26px;}
 #player #next{left: 48px; width: 25px;}
