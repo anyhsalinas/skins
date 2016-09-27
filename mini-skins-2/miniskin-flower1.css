@@ -24,12 +24,7 @@
 
 
 
-
-
-
-
 @font-face {font-family: 'Baumans'; font-style: normal; font-weight: 400; src: local('Baumans'), local('Baumans-Regular'), url(http://fonts.gstatic.com/s/baumans/v5/wUCl3MlBd3lTlYyjq93hYg.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;}
-
 
 #player, #player a{color: transparent;}
 #player{background: transparent; font-size: 10px; font-family: 'Baumans', Helvetica, sans-serif; text-transform: uppercase;}
@@ -57,13 +52,11 @@
 #player #volume{width: 65px; height: 10px; right: 39px; margin-top: 7px; background: transparent; display: none;}
 #player #volumeSlider{width: 8px; height: 10px; background: transparent;}
 
-#playlist,#playlist .module,#playlist h3{background-color: transparent; color: #ccc; font-weight: normal; font-family: 'Baumans', Helvetica, sans-serif; border: none; text-transform: uppercase; }
-#playlist  {font-family: 'Baumans', Helvetica, sans-serif; }
-
-#playlist h3 {background-position: top left; background-repeat: no-repeat;  border-bottom: 1px solid #ccc; font-size: 12px; padding: 5px;}
+#playlist  {font-family: 'Baumans', Helvetica, sans-serif; font-size: 12px;}
+#playlist h3 {border-bottom: 1px solid #777; padding: 5px; font-weight: normal;}
 #playlist h3:after {content: "© anyhs-themes.tumblr.com"; float: right; font-size: 9px;}
 
-#playlist .module{background-color: transparent; color: #ccc; font-family: 'Baumans', Helvetica, sans-serif;}
+#playlist .module{background-color: transparent; color: #777; font-family: 'Baumans', Helvetica, sans-serif;}
 #playlist .module ol {list-style: none; margin-top: 5px;}
 #playlist .module ol  li{padding: 5px; font-size: 9px; transition: .9s;}
 #playlist .module ol  li:hover {letter-spacing: 1px;}
