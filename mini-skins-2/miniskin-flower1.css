@@ -63,7 +63,7 @@
 #playlist h3 {background-position: top left; background-repeat: no-repeat;  border-bottom: 1px solid #ccc; font-size: 12px; padding: 5px;}
 #playlist h3:after {content: "© anyhs-themes.tumblr.com"; float: right; font-size: 9px;}
 
-#playlist .module{background-color: transparent; color: #ccc; text-shadow: 1px 1px 0px #444; font-family: 'Baumans', Helvetica, sans-serif;}
+#playlist .module{background-color: transparent; color: #ccc; font-family: 'Baumans', Helvetica, sans-serif;}
 #playlist .module ol {list-style: none; margin-top: 5px;}
 #playlist .module ol  li{padding: 5px; font-size: 9px; transition: .9s;}
 #playlist .module ol  li:hover {letter-spacing: 1px;}
