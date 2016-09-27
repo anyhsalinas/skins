@@ -35,7 +35,7 @@
 #player .button{width: 26px;}
 #player #play{background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/pixel-lotus/pixel-lotus-1-play.jpg');}
 #player #pause{background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/pixel-lotus/pixel-lotus-1-pause.jpg');}
-#player #play,#player #pause{left: 0px; width: 22px;}
+#player #play,#player #pause{left: 5px; width: 19px;}
 #player #previous{left: 22px; width: 26px;}
 #player #next{left: 48px; width: 25px;}
 #player #title{left: 100px; display: none;}
