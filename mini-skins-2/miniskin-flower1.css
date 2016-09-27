@@ -24,7 +24,7 @@
 
 
 
-@font-face {font-family: 'Ubuntu'; font-style: normal; src: local('Ubuntu'), url(https://fonts.gstatic.com/s/ubuntu/v9/ODszJI8YqNw8V2xPulzjO_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');}
+@font-face {font-family: 'Ubuntu'; font-style: normal;font-weight: 400; src: local('Ubuntu'), url(https://fonts.gstatic.com/s/ubuntu/v9/ODszJI8YqNw8V2xPulzjO_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');}
 
 #player, #player a{color: transparent;}
 #player{background: transparent; font-size: 10px; font-family: 'Ubuntu', Helvetica, sans-serif; text-transform: uppercase;}
