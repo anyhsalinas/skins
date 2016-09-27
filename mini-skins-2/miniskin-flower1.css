@@ -71,7 +71,7 @@
 #playlist .focus:before {content: "♦"; margin-left: 0px; margin-right: 2px;}
 
 ::-webkit-scrollbar {width: 5px; height: 5px; background: #fff;}
-::-webkit-scrollbar-thumb {background: #000; border: 1px solid #fff;}
+::-webkit-scrollbar-thumb {background: #000; border: 2px solid #fff;}
 
 
 
