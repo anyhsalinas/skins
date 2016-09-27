@@ -33,8 +33,8 @@
 #player #baseLeft{width: 93px;}
 #player #baseRight{width: 145px;}
 #player .button{width: 19px;}
-#player #play{background: url('');}
-#player #pause{background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-2/miniskin-flower-1-pause.png');}
+#player #play{background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-2/miniskin-flower-1-pause.png');}
+#player #pause{background: url('');}
 #player #play,#player #pause{left: 19px; width: 19px;}
 #player #previous{left: 0px; width: 19px;}
 #player #next{left: 38px; width: 19px;}
