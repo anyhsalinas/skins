@@ -34,8 +34,8 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-
 #player #baseLeft{width: 93px;}
 #player #baseRight{width: 0px;}
 #player .button{width: 19px;}
-#player #play{background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-2/miniskin-flower-1-pause.png');}
-#player #pause{background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-2/miniskin-flower-1-play.png');}
+#player #play{background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-2/miniskin-flower-1-play.png');}
+#player #pause{background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-2/miniskin-flower-1-pause.png');}
 #player #play,#player #pause{left: 19px; width: 19px;}
 #player #previous{left: 0px; width: 19px;}
 #player #next{left: 38px; width: 19px;}
