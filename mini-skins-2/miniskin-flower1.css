@@ -51,7 +51,7 @@
 #player #volume{left: 81px; width: 30px; height: 4px; border: 1px solid #000; border-radius: 2px; margin-top: 13px;}
 #player #volumeSlider{width: 2px; height: 5px; background: #000;}
 
-#playlist {font-family: 'Ubuntu', Helvetica, sans-serif; font-size: 12px; border: none; outline: none;}
+#playlist {font-family: 'Ubuntu', Helvetica, sans-serif; font-size: 12px; border: none; outline: none; -webkit-user-select: none; -moz-user-select: none; -o-user-select: none; user-select: none;}
 #playlist,#playlist .module,#playlist h3{border: none;}
 #playlist h3 {border-bottom: 1px solid #000; padding: 5px; font-weight: normal;}
 #playlist h3:after {content: "© anyhs-themes.tumblr.com"; float: right; bottom: 0px; font-size: 10px; text-transform: uppercase; font-family: 'Ubuntu Condensed', sans-serif;}
