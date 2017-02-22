@@ -24,7 +24,7 @@
 
 
 #player, #player a{color: transparent;}
-#player{background: transparent; font-size: 10px; font-family: 'Ubuntu', Helvetica, sans-serif;}
+#player{background: transparent; font-size: 10px; font-family: 'Ubuntu', Helvetica, sans-serif; float: right;}
 #player .mainImage{background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-2/miniskin-flower-3-body.png'); background-repeat: no-repeat;}
 
 #player #baseLeft{width: 93px;}
