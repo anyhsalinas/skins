@@ -27,7 +27,7 @@
 #player{background: #111; font-size: 10px; font-family: 'Ubuntu', Helvetica, sans-serif;}
 #player .mainImage{background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-2/miniskin-flower-3-body.png'); background-repeat: no-repeat;}
 
-#player #baseLeft{width: 93px;}
+#player #baseLeft{width: 93px; float: right;}
 #player #baseRight{width: 0px;}
 #player .button{width: 19px;}
 #player #play{background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-2/miniskin-cross-3-play.png');}
