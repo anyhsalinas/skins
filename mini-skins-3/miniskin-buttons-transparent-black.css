@@ -35,7 +35,7 @@
 #player #timer{right: 120px; display: none;}
 
 #player #list{left: 75px; width: 25px; position: relative; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-black-menu.png');}
-#player #list:after {content: "Volume:"; position: absolute; left: 100%; top: 4px; color: #000; font-size: 9px; text-transform: uppercase; font-family: 'Ubuntu Condensed', sans-serif; margin-left: 6px;}
+#player #list:after {content: "Volume:"; position: absolute; left: 100%; top: 4px; color: #000; font-size: 9px; text-transform: uppercase; font-family: 'Baumans', sans-serif; margin-left: 6px;}
 
 #player #seeker{right: 320px; display: none;}
 #player #seekerBase{background: transparent; border: none;}
@@ -48,11 +48,11 @@
 #playlist {font-family: 'Baumans', Helvetica, sans-serif; font-size: 12px; border: none; outline: none; -webkit-user-select: none; -moz-user-select: none; -o-user-select: none; user-select: none;}
 #playlist,#playlist .module,#playlist h3{border: none;}
 #playlist h3 {border-bottom: 1px solid #000; padding: 5px; font-weight: normal;}
-#playlist h3:after {content: "© Skin by: anyhs-themes.tumblr.com"; float: right; bottom: 0px; font-size: 9px; text-transform: uppercase; font-family: 'Ubuntu Condensed', sans-serif;}
+#playlist h3:after {content: "© Skin by: anyhs-themes.tumblr.com"; float: right; bottom: 0px; font-size: 9px; text-transform: uppercase; font-family: 'Baumans', sans-serif;}
 
-#playlist .module{background-color: transparent; color: #000; font-family: 'Baumans', Helvetica, cursive;}
+#playlist .module{background-color: transparent; color: #000; font-family: 'Baumans', Helvetica, sans-serif;}
 #playlist .module ol {list-style: none; margin-top: 5px;}
-#playlist .module ol  li{padding: 5px; transition: .9s; font-family: 'Baumans', Helvetica, cursive; }
+#playlist .module ol  li{padding: 5px; transition: .9s; font-family: 'Baumans', Helvetica, sans-serif; }
 #playlist .module ol  li:before {content: "♦"; margin-left: 0px; margin-right: 2px;}
 #playlist .module ol  li:hover {opacity: .5;}
 
@@ -65,7 +65,15 @@
 ::-webkit-scrollbar-thumb {background: #000; }
 
 
-@import url('https://fonts.googleapis.com/css?family=Baumans|Oranienbaum');
+/* latin */
+@font-face {
+  font-family: 'Baumans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Baumans Regular'), local('Baumans-Regular'), url(https://fonts.gstatic.com/s/baumans/v7/-W_-XJj9QyTd3Qfpd_04aw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 
 /**
 
