@@ -53,18 +53,18 @@
 
 #playlist, #playlist .module, #playlist .module ol li, #playlist h3 {font-family: 'Changa', Helvetica, sans-serif; color: #000; font-size: 10px; text-transform: uppercase; -webkit-user-select: none; -moz-user-select: none; -o-user-select: none; user-select: none;}
 
-#playlist h3 {padding: 5px; font-weight: normal; font-size: 12px; line-height: 12px; cursor: default;}
-#playlist h3:before {content: "© Skin by: anyhs-themes.tumblr.com"; float: right; bottom: 0px; font-size: 9px; line-height: 12px; text-transform: uppercase; font-family: 'Changa', sans-serif;}
+#playlist h3 {padding: 5px; font-weight: normal; font-size: 14px; line-height: 14px; cursor: default; border: none;}
+#playlist h3:before {content: "© Skin by: anyhs-themes.tumblr.com"; float: right; bottom: 0px; font-size: 9px; line-height: 14px; text-transform: uppercase; font-family: 'Changa', sans-serif;}
 
 #playlist .module {background-color: transparent; color: #000; }
-#playlist .module ol {list-style: none; margin-top: 5px; margin-right: 1px;}
+#playlist .module ol {list-style: none; margin-top: 5px;}
 #playlist .module ol  li {padding: 5px; transition: .5s; }
 #playlist .module ol  li:before {content: "♦"; margin-left: 0px; margin-right: 2px;}
 #playlist .module ol  li:hover {opacity: .5;}
 
 #playlist .even{}
 #playlist .odd{}
-#playlist .focus{box-shadow: 0px 0px 0px 1px #000 inset;}
+#playlist .focus{border: 1px solid #000; border-left: none;}
 
 ::-webkit-scrollbar {width: 5px; height: 5px;}
 ::-webkit-scrollbar-thumb {background: #000; }
