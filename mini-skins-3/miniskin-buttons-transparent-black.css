@@ -34,7 +34,7 @@
 #player #previous{left: 0px; width: 25px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-black-prev.png');}
 #player #next{left: 50px; width: 25px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-black-next.png');}
 
-#player #title, #player #jp-title {left: 100px; width: 100px;background: turquoise;}
+#player #title, #player #jp-title {left: 100px; width: 100px; }
 #player #title:before, #player #jp-title:before {content: "<"; width: 3px; color: red}
 #player #title:after, #player #jp-title:after {content: ">"; width: 3px; color: red;}
 
@@ -56,7 +56,7 @@
 #playlist h3 {padding: 5px; font-weight: normal; font-size: 16px; line-height: 18px; cursor: default; border: none;}
 #playlist h3:before {content: "© Skin by: anyhs-themes.tumblr.com"; float: right; bottom: 0px; font-size: 9px; line-height: 18px; text-transform: uppercase; font-family: 'Changa', sans-serif;}
 
-#playlist .module {background-color: transparent; color: #000; }
+#playlist .module {background: transparent; color: #000; }
 #playlist .module ol {list-style: none; margin-top: 5px;}
 #playlist .module ol  li {padding: 5px; transition: .5s; }
 #playlist .module ol  li:before {content: "♦"; margin-left: 0px; margin-right: 2px;}
