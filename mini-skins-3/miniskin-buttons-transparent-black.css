@@ -56,14 +56,14 @@
 
 #playlist .module {background: transparent; color: #000; margin: 0px;}
 #playlist .module:nth-of-type(2) {margin-top: 4px;}
-#playlist .module ol {list-style: none;}
-#playlist .module ol  li {margin: 2px; padding: 2px; transition: .5s; }
+#playlist .module ol {list-style: none; width: calc(100% - 4px);}
+#playlist .module ol  li {margin: 2px; transition: .5s; }
 #playlist .module ol  li:before {content: "♦"; margin-left: 0px; margin-right: 2px;}
 #playlist .module ol  li:hover {opacity: .5;}
 
 #playlist .even{}
 #playlist .odd{}
-#playlist .focus{border: 1px solid #000; border-left: none;}
+#playlist .focus{border: 1px solid #000; border-left: none; border-right: none; padding: 2px;}
 
 ::-webkit-scrollbar {width: 5px; height: 5px;}
 ::-webkit-scrollbar-thumb {background: #000; }
