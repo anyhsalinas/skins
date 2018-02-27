@@ -54,7 +54,8 @@
 #playlist h3 {padding: 5px; border: none; font-weight: normal; font-size: 16px; line-height: 16px; cursor: default; border: none;}
 #playlist h3:before {content: "© Skin by: anyhs-themes.tumblr.com"; float: right; bottom: 0px; font-size: 9px; line-height: 16px; text-transform: uppercase; font-family: 'Changa', sans-serif;}
 
-#playlist .module {background: transparent; color: #000; margin: 0px; margin-top: 5px;}
+#playlist .module {background: transparent; color: #000; margin: 0px;}
+#playlist .module:nth-of-type(2) {margin-top: 4px;}
 #playlist .module ol {list-style: none;}
 #playlist .module ol  li {padding: 5px; transition: .5s; }
 #playlist .module ol  li:before {content: "♦"; margin-left: 0px; margin-right: 2px;}
