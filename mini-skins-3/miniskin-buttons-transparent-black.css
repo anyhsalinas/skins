@@ -31,7 +31,8 @@
 #player #previous{left: 0px; width: 25px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-black-prev.png');}
 #player #next{left: 50px; width: 25px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-black-next.png');}
 
-#player #title, #player #jp-title {left: 100px; height: 10px; font-size: 10px; font-family: 'Changa', Helvetica, sans-serif; color: #000; text-transform: uppercase; border-top: 4px double #000; border-bottom: 4px double #000; position: relative;}
+#player #title, #player #jp-title {left: 100px; height: 10px; font-size: 10px; font-family: 'Changa', Helvetica, sans-serif; color: #000; text-transform: uppercase; border-top: 4px double #000; border-bottom: 4px double #000;}
+#player #title:before, #player #jp-title:before {content: "<before>"; color: red; position: absolute; right: 100%;}
 #player #title:after, #player #jp-title:after {content: "<after>"; color: red; position: absolute; left: 100%;}
 
 #player #tooltip{right: 196px; display: none;}
