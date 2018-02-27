@@ -54,15 +54,15 @@
 #playlist .module ol {list-style: none; margin-top: 5px;}
 #playlist .module ol  li{padding: 5px; transition: .9s; font-family: 'Baumans', Helvetica, sans-serif; }
 #playlist .module ol  li:before {content: "♦"; margin-left: 0px; margin-right: 2px;}
-#playlist .module ol  li:hover {opacity: .8;}
+#playlist .module ol  li:hover {opacity: .5;}
 
 #playlist .even{}
 #playlist .odd{}
 #playlist .focus{background: #000; color: #fff; font-family: 'Baumans', Helvetica, sans-serif; letter-spacing: 2px;}
 #playlist .focus:before {content: "♦"; margin-left: 0px; margin-right: 2px;}
 
-::-webkit-scrollbar {width: 5px; height: 5px; background: #fff;}
-::-webkit-scrollbar-thumb {background: #000; border: 2px solid #fff;}
+::-webkit-scrollbar {width: 5px; height: 5px;}
+::-webkit-scrollbar-thumb {background: #000; }
 
 
 @import url('https://fonts.googleapis.com/css?family=Baumans|Ubuntu+Condensed');
