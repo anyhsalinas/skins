@@ -23,8 +23,6 @@
 #player .mainImage{}
 
 #player #baseLeft{width: 100%;}
-#player #baseLeft:after {content: "Volume:"; position: absolute; left: 100%; top: 4px; color: #000; font-size: 9px; text-transform: uppercase; margin-left: 6px;}
-
 #player #baseRight{width: 0px;}
 #player .button{width: 25px;}
 
@@ -46,13 +44,15 @@
 #player #seekerBuffered{background: transparent;}
 #player #seekerSliderBase{background: transparent;}
 
-#player #volume{left: 81px; width: 30px; height: 4px; border: 1px solid #000; border-radius: 2px; margin-top: 13px;}
+#player #volume{left: 196px; width: 30px; height: 4px; border: 1px solid #000; border-radius: 2px; margin-top: 13px;}
+#player #volume:before {content: "Volume:"; position: absolute; left: 100%; top: 4px; color: #000; font-size: 9px; text-transform: uppercase; margin-left: 6px;}
 #player #volumeSlider{width: 2px; height: 5px; background: #000;}
 
 #playlist, #playlist .module, #playlist .module ol li, #playlist h3 {font-family: 'Changa', Helvetica, sans-serif; color: #000; font-size: 10px; text-transform: uppercase; -webkit-user-select: none; -moz-user-select: none; -o-user-select: none; user-select: none;}
 
-#playlist h3 {padding: 5px; padding-bottom: 10px; font-weight: normal; font-size: 16px; line-height: 16px; cursor: default; border: none;}
+#playlist h3 {padding: 5px; padding-bottom: 20px; font-weight: normal; font-size: 16px; line-height: 16px; cursor: default; border: none;}
 #playlist h3:before {content: "© Skin by: anyhs-themes.tumblr.com"; float: right; bottom: 0px; font-size: 9px; line-height: 16px; text-transform: uppercase; font-family: 'Changa', sans-serif;}
+
 
 #playlist .module {background: transparent; color: #000; }
 #playlist .module ol {list-style: none; margin-top: 5px;}
