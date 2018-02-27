@@ -31,7 +31,7 @@
 #player #previous{left: 0px; width: 25px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-black-prev.png');}
 #player #next{left: 50px; width: 25px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-black-next.png');}
 
-#player #title, #player #jp-title {left: 108px; height: 8px; font-size: 8px; line-height: 8px; padding: 2px; font-family: 'Press Start 2P', Helvetica, sans-serif; color: #000; text-transform: uppercase; border-top: 3px double #000; border-bottom: 3px double #000; position: absolute;}
+#player #title, #player #jp-title {left: 108px; height: 8px; font-size: 8px; line-height: 8px; padding: 2px; font-family: 'Press Start 2P', Helvetica, sans-serif; color: #000; text-transform: uppercase; border-top: 3px double #000; border-bottom: 3px double #000; position: absolute; background: rgba(100,100,100,.4)}
 #player #title:before, #player #jp-title:before {content: ""; position: absolute; right: 100%; top: -10px; width: 8px; height: 25px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-black-title-a.png');}
 #player #title:after, #player #jp-title:after {content: ""; position: absolute; left: 100%; top: -10px; width: 8px; height: 25px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-black-title-b.png');}
 
