@@ -52,14 +52,13 @@
 
 #playlist .module{background-color: transparent; color: #000; font-family: 'Baumans', Helvetica, sans-serif;}
 #playlist .module ol {list-style: none; margin-top: 5px;}
-#playlist .module ol  li{padding: 5px; transition: .9s; font-family: 'Baumans', Helvetica, sans-serif; }
+#playlist .module ol  li{padding: 5px; transition: .5s; font-family: 'Baumans', Helvetica, sans-serif; }
 #playlist .module ol  li:before {content: "♦"; margin-left: 0px; margin-right: 2px;}
 #playlist .module ol  li:hover {opacity: .5;}
 
 #playlist .even{}
 #playlist .odd{}
-#playlist .focus{background: #000; color: #fff; font-family: 'Baumans', Helvetica, sans-serif; letter-spacing: 2px;}
-#playlist .focus:before {content: "♦"; margin-left: 0px; margin-right: 2px;}
+#playlist .focus{outline: 1px inset #000;}
 
 ::-webkit-scrollbar {width: 5px; height: 5px;}
 ::-webkit-scrollbar-thumb {background: #000; }
