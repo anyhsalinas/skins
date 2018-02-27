@@ -29,9 +29,8 @@
 #player #pause{background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-black-pause.png');}
 #player #play,#player #pause{left: 25px; width: 25px; background: green;}
 #player #previous{left: 0px; width: 25px; background: yellow;}
-#player #next{left: 500px; width: 25px; background: blue;}
-#player #title{left: 90px; background: turquoise;}
-#player #jp-title{left: 100px; display: none;} /**** wik ****/
+#player #next{left: 50px; width: 25px; background: blue;}
+#player #title, #player #jp-title {left: 90px; background: turquoise;}
 #player #tooltip{right: 196px; display: none;}
 #player #timer{right: 120px; display: none;}
 
