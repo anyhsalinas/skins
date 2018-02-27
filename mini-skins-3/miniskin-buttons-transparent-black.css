@@ -63,7 +63,7 @@
 
 #playlist .even{}
 #playlist .odd{}
-#playlist .focus{border: 1px solid #000; border-left: none; border-right: none; padding: 2px;}
+#playlist .focus{border: 1px solid #000; border-left: none; border-right: none; padding: 2px; font-weight: bold;}
 
 ::-webkit-scrollbar {width: 5px; height: 5px;}
 ::-webkit-scrollbar-thumb {background: #000; }
