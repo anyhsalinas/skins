@@ -31,7 +31,7 @@
 #player #previous{left: 0px; width: 25px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-black-prev.png');}
 #player #next{left: 50px; width: 25px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-black-next.png');}
 
-#player #title, #player #jp-title {left: 108px; height: 8px; font-size: 8px; line-height: 8px; padding: 3px 1px 1px 1px; font-family: 'Changa', Helvetica, sans-serif; color: #000; text-shadow: 0px 0px 0px #000; text-transform: uppercase; border-top: 3.5px double #000; border-bottom: 3.5px double #000; box-shadow: 0px 2px 0px #000, 0px 1px 0px #000 inset; position: absolute; margin: -2px 0px 2px 0px;}
+#player #title, #player #jp-title {left: 108px; height: 8px; font-size: 8px; line-height: 8px; padding: 3px 1px 1px 1px; font-family: 'Armata', Helvetica, sans-serif; color: #000; text-shadow: 0px 0px 0px #000; text-transform: uppercase; border-top: 3.5px double #000; border-bottom: 3.5px double #000; box-shadow: 0px 2px 0px #000, 0px 1px 0px #000 inset; position: absolute; margin: -2px 0px 2px 0px;}
 #player #title:before, #player #jp-title:before {content: ""; position: absolute; right: 100%; top: -6px; width: 8px; height: 25px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-black-title-a.png');}
 #player #title:after, #player #jp-title:after {content: ""; position: absolute; left: 100%; top: -6px; width: 8px; height: 25px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-black-title-b.png');}
 
@@ -57,7 +57,7 @@
 #playlist .module {background: transparent; color: #000; margin: 0px;}
 #playlist .module:nth-of-type(2) {margin-top: 4px;}
 #playlist .module ol {list-style: none;}
-#playlist .module ol  li {padding: 5px; transition: .5s; }
+#playlist .module ol  li {margin: 2px; padding: 2px; transition: .5s; }
 #playlist .module ol  li:before {content: "♦"; margin-left: 0px; margin-right: 2px;}
 #playlist .module ol  li:hover {opacity: .5;}
 
@@ -93,48 +93,23 @@
   src: local('Changa ExtraLight'), local('Changa-ExtraLight'), url(https://fonts.gstatic.com/s/changa/v4/2-cl9JNi2YuVOUcsqb2rVc74.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-/* cyrillic-ext */
-@font-face {
-  font-family: 'Press Start 2P';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Press Start 2P Regular'), local('PressStart2P-Regular'), url(https://fonts.gstatic.com/s/pressstart2p/v6/e3t4euO8T-267oIAQAu6jDQyK3nYivN04w.woff2) format('woff2');
-  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
-/* cyrillic */
-@font-face {
-  font-family: 'Press Start 2P';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Press Start 2P Regular'), local('PressStart2P-Regular'), url(https://fonts.gstatic.com/s/pressstart2p/v6/e3t4euO8T-267oIAQAu6jDQyK3nRivN04w.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-/* greek */
-@font-face {
-  font-family: 'Press Start 2P';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Press Start 2P Regular'), local('PressStart2P-Regular'), url(https://fonts.gstatic.com/s/pressstart2p/v6/e3t4euO8T-267oIAQAu6jDQyK3nWivN04w.woff2) format('woff2');
-  unicode-range: U+0370-03FF;
-}
+
 /* latin-ext */
 @font-face {
-  font-family: 'Press Start 2P';
+  font-family: 'Armata';
   font-style: normal;
   font-weight: 400;
-  src: local('Press Start 2P Regular'), local('PressStart2P-Regular'), url(https://fonts.gstatic.com/s/pressstart2p/v6/e3t4euO8T-267oIAQAu6jDQyK3nbivN04w.woff2) format('woff2');
+  src: local('Armata Regular'), local('Armata-Regular'), url(https://fonts.gstatic.com/s/armata/v8/gokvH63_HV5jQ-ENnTR2c2s.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
-
 /* latin */
 @font-face {
-  font-family: 'Press Start 2P';
+  font-family: 'Armata';
   font-style: normal;
   font-weight: 400;
-  src: local('Press Start 2P Regular'), local('PressStart2P-Regular'), url(https://fonts.gstatic.com/s/pressstart2p/v6/e3t4euO8T-267oIAQAu6jDQyK3nVivM.woff2) format('woff2');
+  src: local('Armata Regular'), local('Armata-Regular'), url(https://fonts.gstatic.com/s/armata/v8/gokvH63_HV5jQ-ENkzR2.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-
 
 /**
 
