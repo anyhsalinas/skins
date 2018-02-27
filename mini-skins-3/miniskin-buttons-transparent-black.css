@@ -32,7 +32,7 @@
 #player #previous{left: 0px; width: 25px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-black-prev.png');}
 #player #next{left: 50px; width: 25px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-black-next.png');}
 
-#player #title, #player #jp-title {left: 100px; width: 100px; border-top: 1px double #000; border-bottom: 1px double #000;}
+#player #title, #player #jp-title {left: 100px; width: 100px; border-top: 4px double #000; border-bottom: 4px double #000;}
 
 #player #tooltip{right: 196px; display: none;}
 #player #timer{right: 120px; display: none;}
