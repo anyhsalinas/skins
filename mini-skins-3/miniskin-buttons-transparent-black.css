@@ -31,9 +31,9 @@
 #player #previous{left: 0px; width: 25px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-black-prev.png');}
 #player #next{left: 50px; width: 25px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-black-next.png');}
 
-#player #title, #player #jp-title {left: 108px; height: 10px; font-size: 10px; font-family: 'Changa', Helvetica, sans-serif; color: #000; text-transform: uppercase; border-top: 4px double #000; border-bottom: 4px double #000; position: absolute;}
-#player #title:before, #player #jp-title:before {content: ""; position: absolute; right: 100%; width: 8px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-black-title-a.png');}
-#player #title:after, #player #jp-title:after {content: ""; position: absolute; left: 100%; width: 8px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-black-title-b.png');}
+#player #title, #player #jp-title {left: 108px; height: 10px; font-size: 10px; font-family: 'Changa', Helvetica, sans-serif; color: #000; text-shadow: 0px 0px 0px #000; text-transform: uppercase; border-top: 4px double #000; border-bottom: 4px double #000; position: absolute;}
+#player #title:before, #player #jp-title:before {content: ""; position: absolute; right: 100%; width: 8px; height: 25px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-black-title-a.png');}
+#player #title:after, #player #jp-title:after {content: ""; position: absolute; left: 100%; width: 8px; height: 25px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-black-title-b.png');}
 
 #player #tooltip{right: 196px; display: none;}
 #player #timer{right: 120px; display: none;}
