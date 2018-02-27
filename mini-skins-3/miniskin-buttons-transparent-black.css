@@ -25,8 +25,8 @@
 #player #baseLeft{width: 93px;}
 #player #baseRight{width: 0px;}
 #player .button{width: 25px;}
-#player #play{background: url('https://raw.githubusercontent.com/anyhsalinas/my-available-codes/master/skins/mini-skins-3/miniskin-buttons-transparent-black-play.png');}
-#player #pause{background: url('https://raw.githubusercontent.com/anyhsalinas/my-available-codes/master/skins/mini-skins-3/miniskin-buttons-transparent-black-pause.png');}
+#player #play{background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-black-play.png');}
+#player #pause{background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-black-pause.png');}
 #player #play,#player #pause{left: 25px; width: 25px; background: green;}
 #player #previous{left: 0px; width: 25px; background: yellow;}
 #player #next{left: 38px; width: 25px; background: blue;}
