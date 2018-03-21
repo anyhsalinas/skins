@@ -65,7 +65,7 @@
 #playlist .odd{}
 #playlist .focus{border: 1px solid #000; border-left: none; border-right: none; padding: 2px; padding-left: 3px;}
 
-#playlist .module:before {content: "© Skin by: anyhs-themes.tumblr.com"; left: 0px; bottom: 0px; width: 100%; text-align: center; font-size: 10px; line-height: 16px; text-transform: uppercase; font-family: 'Changa', sans-serif; border-top: 1px solid #000; background: red;}
+#playlist .module:last-of-type:before {content: "© Skin by: anyhs-themes.tumblr.com"; left: 0px; bottom: 0px; width: 100%; text-align: center; font-size: 10px; line-height: 16px; text-transform: uppercase; font-family: 'Changa', sans-serif; border-top: 1px solid #000; background: red;}
 
 ::-webkit-scrollbar {width: 5px; height: 5px;}
 ::-webkit-scrollbar-thumb {background: #000; }
