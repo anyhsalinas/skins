@@ -31,7 +31,7 @@
 #player #previous{left: 0px; width: 25px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-black-prev.png');}
 #player #next{left: 50px; width: 25px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-black-next.png');}
 
-#player #title, #player #jp-title {left: calc(125px + 8px); height: 8px; font-size: 8px; line-height: 8px; letter-spacing: .5px; padding: 2px 1px 2px 1px; font-family: 'Armata', Helvetica, sans-serif; color: #000; text-shadow: 0px 0px 0px #000; text-transform: uppercase; border-top: 3.5px double #000; border-bottom: 3.5px double #000; box-shadow: 0px 2px 0px #000, 0px 1px 0px #000 inset; position: absolute; margin: -2px 0px 2px 0px;}
+#player #title, #player #jp-title {left: calc(100px + 8px); height: 8px; font-size: 8px; line-height: 8px; letter-spacing: .5px; padding: 2px 1px 2px 1px; font-family: 'Armata', Helvetica, sans-serif; color: #000; text-shadow: 0px 0px 0px #000; text-transform: uppercase; border-top: 3.5px double #000; border-bottom: 3.5px double #000; box-shadow: 0px 2px 0px #000, 0px 1px 0px #000 inset; position: absolute; margin: -2px 0px 2px 0px;}
 #player #title:before, #player #jp-title:before {content: ""; position: absolute; right: 100%; top: -6px; width: 8px; height: 25px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-black-title-a.png');}
 #player #title:after, #player #jp-title:after {content: ""; position: absolute; left: 100%; top: -6px; width: 8px; height: 25px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-black-title-b.png');}
 
@@ -51,7 +51,6 @@
 #playlist, #playlist .module, #playlist .module ol li, #playlist h3 {font-family: 'Changa', Helvetica, sans-serif; color: #000; font-size: 10px; text-transform: uppercase; -webkit-user-select: none; -moz-user-select: none; -o-user-select: none; user-select: none;}
 
 #playlist h3 {padding: 5px; border: none; font-weight: normal; font-size: 16px; line-height: 16px; cursor: default; border: none;}
-#playlist:after {content: "© Skin by: anyhs-themes.tumblr.com"; left: 0px; bottom: 0px; font-size: 10px; line-height: 16px; text-transform: uppercase; font-family: 'Changa', sans-serif; background: red;}
 
 #playlist .module {background: transparent; color: #000; margin: 0px;}
 #playlist .module:nth-of-type(2) {margin-top: 4px;}
@@ -63,6 +62,8 @@
 #playlist .even{}
 #playlist .odd{}
 #playlist .focus{border: 1px solid #000; border-left: none; border-right: none; padding: 2px; padding-left: 3px;}
+
+#player:after {content: "© Skin by: anyhs-themes.tumblr.com"; left: 0px; bottom: 0px; font-size: 10px; line-height: 16px; text-transform: uppercase; font-family: 'Changa', sans-serif; background: red;}
 
 ::-webkit-scrollbar {width: 5px; height: 5px;}
 ::-webkit-scrollbar-thumb {background: #000; }
