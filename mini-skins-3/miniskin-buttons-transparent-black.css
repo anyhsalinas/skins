@@ -51,6 +51,7 @@
 
 #playlist, #playlist .module, #playlist .module ol li, #playlist h3 {font-family: 'Changa', Helvetica, sans-serif; color: #000; font-size: 10px; text-transform: uppercase; -webkit-user-select: none; -moz-user-select: none; -o-user-select: none; user-select: none;}
 
+#playlist {position: relative;}
 #playlist h3 {padding: 5px; border: none; font-weight: normal; font-size: 16px; line-height: 16px; border: none;}
 
 #playlist .module {background: transparent; color: #000; margin: 0px;}
@@ -64,7 +65,7 @@
 #playlist .odd{}
 #playlist .focus{border: 1px solid #000; border-left: none; border-right: none; padding: 2px; padding-left: 3px;}
 
-#player:after {content: "© Skin by: anyhs-themes.tumblr.com"; left: 0px; bottom: 0px; font-size: 10px; line-height: 16px; text-transform: uppercase; font-family: 'Changa', sans-serif; background: red;}
+#playlist:before {content: "© Skin by: anyhs-themes.tumblr.com"; left: 0px; bottom: 0px; font-size: 10px; line-height: 16px; text-transform: uppercase; font-family: 'Changa', sans-serif; background: red;}
 
 ::-webkit-scrollbar {width: 5px; height: 5px;}
 ::-webkit-scrollbar-thumb {background: #000; }
