@@ -65,7 +65,7 @@
 #playlist .odd{}
 #playlist .focus{border: 1px solid #000; border-left: none; border-right: none; padding: 2px; padding-left: 3px;}
 
-#playlist .module ol:before {content: "© Skin by: anyhs-themes.tumblr.com"; position: absolute; left: 0px; bottom: 0px; width: 100%; padding: 5px 0px; text-align: center; font-size: 8px; line-height: 8px; text-transform: uppercase; font-family: 'Armata', sans-serif; color: #000; text-shadow: 0px 0px 0px #000; border: 1px solid #000; border-left: 0px; border-right: 0px; -webkit-user-select: text; -moz-user-select: text; -ms-user-select: text; user-select: text;}
+#playlist .module ol:before {content: "© Skin by: anyhs-themes.tumblr.com"; position: absolute; left: 0px; bottom: 0px; width: 100%; padding: 5px 0px; text-align: center; font-size: 8px; line-height: 8px; text-transform: uppercase; letter-spacing: 1px; font-family: 'Armata', sans-serif; color: #fff; text-shadow: 0px 0px 0px #fff; border: 1px solid #fff; border-left: 0px; border-right: 0px; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; user-select: text !important; z-index: 10; cursor: text;}
 
 ::-webkit-scrollbar {width: 5px; height: 5px;}
 ::-webkit-scrollbar-thumb {background: #000; }
