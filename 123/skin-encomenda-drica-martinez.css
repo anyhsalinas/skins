@@ -1,0 +1,122 @@
+/**
+
+
+
+    — EXCLUSIVE MINI SKIN FOR: Drica Martinez —
+    by Anyh Salinas ©
+    www.anyhs-themes.tumblr.com
+           
+    (Last update: 12/03/2019 — 22:26hrs)
+
+
+    TERMS OF USE:
+    ♦ Don't remove, adulterate or move my credits;
+    ♦ Don't redistribute this code nor parts of it;
+    ♦ Don't take this code nor parts of it to create/upgrade other code(s);
+    ♦ Inspiration is allowed, as long as you don't copy my designs entirely
+
+
+
+**/
+
+
+#player {background: transparent; font-size: 10px; cursor: default;}
+#player .mainImage{}
+
+#player #baseLeft {width: 100%;}
+#player #baseRight {width: 0px;}
+#player .button {width: 25px;}
+
+#player #play {background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-grey-play.png');}
+#player #pause {background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-grey-pause.png');}
+#player #play, #player #pause {left: 25px; width: 25px;}
+#player #previous {left: 0px; width: 25px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-grey-prev.png');}
+#player #next {left: 50px; width: 25px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-grey-next.png');}
+#player #play, #player #pause, #player #previous, #player #next {cursor: pointer;}
+
+#player #title, #player #jp-title {left: calc(100px + 8px); height: 8px; font-size: 8px; line-height: 8px; letter-spacing: .5px; padding: 2px 1px 2px 1px; font-family: 'Armata', Helvetica, sans-serif; color: #888; text-shadow: 0px 0px 0px #888; text-transform: uppercase; border-top: 3.5px double #888; border-bottom: 3.5px double #888; box-shadow: 0px 2px 0px #888, 0px 1px 0px #888 inset; position: absolute; margin: -2px 0px 2px 0px;}
+#player #title:before, #player #jp-title:before {content: ""; position: absolute; right: 100%; top: -6px; width: 8px; height: 25px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-grey-title-a.png');}
+#player #title:after, #player #jp-title:after {content: ""; position: absolute; left: 100%; top: -6px; width: 8px; height: 25px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-grey-title-b.png');}
+
+#player #tooltip{right: 196px; display: none;}
+#player #timer{right: 120px; display: none;}
+
+#player #list{left: 75px; width: 25px; position: relative; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/mini-skins-3/miniskin-buttons-transparent-grey-menu.png');}
+
+#player #seeker{right: 320px; display: none;}
+#player #seekerBase{background: transparent; border: none;}
+#player #seekerBuffered{background: transparent;}
+#player #seekerSliderBase{background: transparent;}
+
+#player #volume{left: 100px; width: 25px; height: 4px; border: 1px solid #888; margin-top: 13px; display: none;}
+#player #volumeSlider{width: 2px; height: 5px; background: #888;}
+
+#playlist, #playlist .module, #playlist .module ol li, #playlist h3 {font-family: 'Changa', Helvetica, sans-serif; color: #888; font-size: 10px; text-transform: uppercase;}
+
+#playlist {cursor: default;}
+#playlist h3 {padding: 5px; border: none; font-weight: normal; font-size: 16px; line-height: 16px; border: none; text-align: center;}
+
+#playlist .module {background: transparent; color: #888; margin: 0px;}
+#playlist .module:nth-of-type(2) {margin-top: 4px;}
+#playlist .module ol {list-style: none; width: calc(100% - 4px);}
+#playlist .module ol  li {margin: 2px; transition: .5s; cursor: pointer;}
+#playlist .module ol  li:before {content: "♦"; margin-left: 0px; margin-right: 2px;}
+#playlist .module ol  li:hover {opacity: .5;}
+
+#playlist .even{}
+#playlist .odd{}
+#playlist .focus{border: 1px solid #888; border-left: none; border-right: none; padding: 2px; padding-left: 3px;}
+
+#playlist .module ol:before {content: "© Skin by: anyhs-themes.tumblr.com"; position: absolute; left: 0px; bottom: 0px; width: 100%; padding: 5px 0px; text-align: center; font-size: 8px; line-height: 8px; text-transform: uppercase; font-family: 'Armata', sans-serif; color: #888; text-shadow: 0px 0px 0px #888; border: 1px solid #888; border-left: 0px; border-right: 0px;}
+
+::-webkit-scrollbar {width: 5px; height: 5px;}
+::-webkit-scrollbar-thumb {background: #888; }
+
+
+/* arabic */
+@font-face {
+  font-family: 'Changa';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Changa ExtraLight'), local('Changa-ExtraLight'), url(https://fonts.gstatic.com/s/changa/v4/2-cl9JNi2YuVOUcsqb2rUM74nZg.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Changa';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Changa ExtraLight'), local('Changa-ExtraLight'), url(https://fonts.gstatic.com/s/changa/v4/2-cl9JNi2YuVOUcsqb2rW874nZg.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Changa';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Changa ExtraLight'), local('Changa-ExtraLight'), url(https://fonts.gstatic.com/s/changa/v4/2-cl9JNi2YuVOUcsqb2rVc74.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Armata';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Armata Regular'), local('Armata-Regular'), url(https://fonts.gstatic.com/s/armata/v8/gokvH63_HV5jQ-ENnTR2c2s.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Armata';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Armata Regular'), local('Armata-Regular'), url(https://fonts.gstatic.com/s/armata/v8/gokvH63_HV5jQ-ENkzR2.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/**
+
+	© 2019 — www.anyhs-themes.tumblr.com
+
+**/
