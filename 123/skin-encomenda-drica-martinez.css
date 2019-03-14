@@ -36,8 +36,9 @@
 #player #next {left: 44px; width: 12px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/next.png'); background-color: blue;}
 #player #play, #player #pause, #player #previous, #player #next {cursor: pointer;}
 
-#player #title, #player #jp-title {left: 68px; bottom: 0px; height: 9px; font-size: 9px; line-height: 9px; letter-spacing: .5px; font-family: 'Armata', Helvetica, sans-serif; text-transform: uppercase; color: #888; text-shadow: 0px 0px 1px rgba(0,0,0,.5); background: pink;}
-#player #title:before, #player #jp-title:before {content: "Song:";}
+#player #title, #player #jp-title {left: 68px; margin-left: 35px; bottom: 0px; max-width: 100px; overflow: hidden; height: 9px; font-size: 9px; line-height: 9px; letter-spacing: .5px; font-family: 'Armata', Helvetica, sans-serif; text-transform: uppercase; color: #888; text-shadow: 0px 0px 1px rgba(0,0,0,.5); background: pink;}
+#player #title:before, #player #jp-title:before {content: "Song:"; position: absolute; right: 100%;}
+#player #title:before, #player #jp-title:after {content: "..."; position: absolute; left: 100%;}
 
 #player #tooltip{right: 196px; display: none;}
 #player #timer{right: 120px; display: none;}
@@ -49,8 +50,8 @@
 #player #seekerBuffered{background: transparent;}
 #player #seekerSliderBase{background: transparent;}
 
-#player #volume{left: 68px; width: 30px; height: 4px; border: 1px solid #888; margin-top: 13px; background: turquoise;}
-#player #volume:before {content: "Volume:"; font-size: 9px; line-height: 9px; letter-spacing: .5px; font-family: 'Armata', Helvetica, sans-serif; text-transform: uppercase; }
+#player #volume{left: 68px; margin-left: 35px; width: 30px; height: 4px; border: 1px solid #888; margin-top: 13px; background: turquoise;}
+#player #volume:before {content: "Volume:"; position: absolute; right: 100%; font-size: 9px; line-height: 9px; letter-spacing: .5px; font-family: 'Armata', Helvetica, sans-serif; text-transform: uppercase; }
 #player #volumeSlider{width: 2px; height: 5px; background: #888;}
 
 #playlist, #playlist .module, #playlist .module ol li, #playlist h3 {font-family: 'Changa', Helvetica, sans-serif; color: #888; font-size: 10px; text-transform: uppercase;}
