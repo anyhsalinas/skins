@@ -6,7 +6,7 @@
     by Anyh Salinas ©
     www.anyhs-themes.tumblr.com
            
-    (Last update: 14/03/2019 — 12:43hrs)
+    (Last update: 14/03/2019 — 12:51hrs)
 
 
     TERMS OF USE:
@@ -36,7 +36,7 @@
 #player #next {left: 44px; width: 12px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/next.png'); background-color: blue;}
 #player #play, #player #pause, #player #previous, #player #next {cursor: pointer;}
 
-#player #title, #player #jp-title {left: 68px; bottom: 5px; font-size: 9px; line-height: 9px; letter-spacing: .5px; font-family: 'Armata', Helvetica, sans-serif; text-transform: uppercase; color: #888; text-shadow: 0px 0px 1px rgba(0,0,0,.5); background: violet;}
+#player #title, #player #jp-title {left: 68px; bottom: 0px; height: auto; font-size: 9px; line-height: 9px; letter-spacing: .5px; font-family: 'Armata', Helvetica, sans-serif; text-transform: uppercase; color: #888; text-shadow: 0px 0px 1px rgba(0,0,0,.5); background: violet;}
 
 #player #tooltip{right: 196px; display: none;}
 #player #timer{right: 120px; display: none;}
@@ -48,7 +48,7 @@
 #player #seekerBuffered{background: transparent;}
 #player #seekerSliderBase{background: transparent;}
 
-#player #volume{left: 100px; width: 25px; height: 4px; border: 1px solid #888; margin-top: 13px; display: none; background: turquoise;}
+#player #volume{left: 100px; width: 25px; height: 4px; border: 1px solid #888; margin-top: 13px; background: turquoise;}
 #player #volumeSlider{width: 2px; height: 5px; background: #888;}
 
 #playlist, #playlist .module, #playlist .module ol li, #playlist h3 {font-family: 'Changa', Helvetica, sans-serif; color: #888; font-size: 10px; text-transform: uppercase;}
