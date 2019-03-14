@@ -30,7 +30,7 @@
 #player #play {background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/play.png'); background-color: green;}
 #player #pause {background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/pause.png'); background-color: lime;}
 #player #play, #player #pause {left: 12px; width: 12px;}
-#player #previous {left: 0px; width: 12px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/previous.png'); background-color: red;}
+#player #previous {left: 20px; width: 12px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/previous.png'); background-color: red;}
 #player #next {left: 50px; width: 12px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/next.png'); background-color: blue;}
 #player #play, #player #pause, #player #previous, #player #next {cursor: pointer;}
 
