@@ -27,6 +27,8 @@
 #player #baseRight {width: 0px;}
 #player .button {width: 25px;}
 
+#player #play, #player #pause, #player #previous, #player #next, #player #list {background-repeat: no-repeat; background-position: 0px 0px;}
+
 #player #play {background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/play.png'); background-color: green;}
 #player #pause {background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/pause.png'); background-color: lime;}
 #player #play, #player #pause {left: 32px; width: 12px;}
