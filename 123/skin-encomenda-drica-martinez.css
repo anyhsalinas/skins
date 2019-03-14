@@ -6,7 +6,7 @@
     by Anyh Salinas ©
     www.anyhs-themes.tumblr.com
            
-    (Last update: 14/03/2019 — 11:56hrs)
+    (Last update: 14/03/2019 — 12:01hrs)
 
 
     TERMS OF USE:
@@ -29,9 +29,9 @@
 
 #player #play {background: green url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/play.png');}
 #player #pause {background: lime url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/pause.png');}
-#player #play, #player #pause {left: 25px; width: 25px;}
-#player #previous {left: 0px; width: 25px; background: red url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/previous.png');}
-#player #next {left: 50px; width: 25px; background: blue url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/next.png');}
+#player #play, #player #pause {left: 12px; width: 12px;}
+#player #previous {left: 0px; width: 12px; background: red url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/previous.png');}
+#player #next {left: 50px; width: 12px; background: blue url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/next.png');}
 #player #play, #player #pause, #player #previous, #player #next {cursor: pointer;}
 
 #player #title, #player #jp-title {left: calc(100px + 8px); height: 8px; font-size: 8px; line-height: 8px; letter-spacing: .5px; padding: 2px 1px 2px 1px; font-family: 'Armata', Helvetica, sans-serif; color: #888; text-shadow: 0px 0px 0px #888; text-transform: uppercase; border-top: 3.5px double #888; border-bottom: 3.5px double #888; box-shadow: 0px 2px 0px #888, 0px 1px 0px #888 inset; position: absolute; margin: -2px 0px 2px 0px;}
@@ -39,7 +39,7 @@
 #player #tooltip{right: 196px; display: none;}
 #player #timer{right: 120px; display: none;}
 
-#player #list{left: 75px; width: 25px; position: relative; background: yellow url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/menu.png');}
+#player #list{left: 75px; width: 12px; position: relative; background: yellow url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/menu.png');}
 
 #player #seeker{right: 320px; display: none;}
 #player #seekerBase{background: transparent; border: none;}
