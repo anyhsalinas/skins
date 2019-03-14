@@ -6,7 +6,7 @@
     by Anyh Salinas ©
     www.anyhs-themes.tumblr.com
            
-    (Last update: 14/03/2019 — 13:20hrs)
+    (Last update: 14/03/2019 — 13:25hrs)
 
 
     TERMS OF USE:
@@ -32,7 +32,7 @@
 #player #play {background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/play.png'); background-color: green;}
 #player #pause {background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/pause.png'); background-color: lime;}
 #player #play, #player #pause {left: 32px; width: 12px;}
-#player #previous {left: 20px; width: 12px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/previous.png'); background-color: red;}
+#player #previous {left: 20px; width: 12px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/previous.png'); background-color: red; border: 3px double #888; border-bottom: none; border-right: none;}
 #player #next {left: 44px; width: 12px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/next.png'); background-color: blue;}
 #player #play, #player #pause, #player #previous, #player #next {cursor: pointer;}
 
