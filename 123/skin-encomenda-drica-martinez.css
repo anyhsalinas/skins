@@ -43,7 +43,7 @@
 #player #tooltip{right: 196px; display: none;}
 #player #timer{right: 120px; display: none;}
 
-#player #list{left: 56px; width: 12px; position: relative; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/menu.png'); background-color: yellow;}
+#player #list{left: 56px; width: 12px; position: relative; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/menu.png'); }
 
 #player #seeker{right: 320px; display: none;}
 #player #seekerBase{background: transparent; border: none;}
