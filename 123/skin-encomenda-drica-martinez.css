@@ -29,11 +29,11 @@
 
 #player #play, #player #pause, #player #previous, #player #next, #player #list {background-repeat: no-repeat; background-position: 0px 0px;}
 
-#player #play {background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/play.png'); background-color: green;}
-#player #pause {background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/pause.png'); background-color: lime;}
+#player #play {background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/play.png'); }
+#player #pause {background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/pause.png');}
 #player #play, #player #pause {left: 32px; width: 12px;}
-#player #previous {left: 20px; width: 12px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/previous.png'); background-color: red; border: 3px double #888; border-bottom: none; border-right: none;}
-#player #next {left: 44px; width: 12px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/next.png'); background-color: blue;}
+#player #previous {left: 20px; width: 12px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/previous.png'); }
+#player #next {left: 44px; width: 12px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/next.png');}
 #player #play, #player #pause, #player #previous, #player #next {cursor: pointer;}
 
 #player #title, #player #jp-title {left: 68px; margin-left: 35px; bottom: 0px; max-width: 100px; overflow: hidden; height: 9px; font-size: 9px; line-height: 9px; letter-spacing: .5px; font-family: 'Armata', Helvetica, sans-serif; text-transform: uppercase; color: #888; text-shadow: 0px 0px 1px rgba(0,0,0,.5); background: pink;}
