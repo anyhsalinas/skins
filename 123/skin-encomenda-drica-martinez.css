@@ -47,8 +47,8 @@
 #player #seekerBuffered{background: transparent;}
 #player #seekerSliderBase{background: transparent;}
 
-#player #volume{left: 68px; margin-left: 49px; width: 30px; height: 8px; border: 1px solid #888; border-radius: 2px; margin-top: 15px;}
-#player #volume:before {content: "Volume:"; position: absolute; left: 0px; bottom: 100%; font-size: 9px; line-height: 9px; letter-spacing: .5px; font-family: 'Armata', Helvetica, sans-serif; text-transform: uppercase; }
+#player #volume{left: 68px; margin-left: 49px; width: 35px; height: 8px; border: 1px solid #888; border-radius: 2px; margin-top: 15px;}
+#player #volume:before {content: "Volume:"; position: absolute; left: 0px; bottom: 100%; font-size: 8px; line-height: 8x; letter-spacing: .5px; font-family: 'Armata', Helvetica, sans-serif; text-transform: uppercase; }
 #player #volumeSlider{width: 2px; height: 6px; background: #888;}
 
 #playlist, #playlist .module, #playlist .module ol li, #playlist h3 {font-family: 'Changa', Helvetica, sans-serif; color: #888; font-size: 10px; text-transform: uppercase;}
