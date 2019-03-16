@@ -6,7 +6,7 @@
     by Anyh Salinas ©
     www.anyhs-themes.tumblr.com
            
-    (Last update: 16/03/2019 — 10:40hrs)
+    (Last update: 16/03/2019 — 11:01hrs)
 
 
     TERMS OF USE:
@@ -47,7 +47,7 @@
 #player #seekerBuffered{background: transparent;}
 #player #seekerSliderBase{background: transparent;}
 
-#player #volume{left: 68px; margin-left: 49px; width: 35px; height: 8px; border: 1px solid #888; border-radius: 2px; margin-top: 15px;}
+#player #volume{left: 42px; margin-left: 49px; width: 35px; height: 8px; border: 1px solid #888; border-radius: 2px; margin-top: 15px;}
 #player #volume:before {content: "Volume:"; position: absolute; left: 0px; bottom: 100%; font-size: 8px; line-height: 8x; letter-spacing: .5px; font-family: 'Armata', Helvetica, sans-serif; text-transform: uppercase; }
 #player #volumeSlider{width: 2px; height: 6px; background: #888;}
 
