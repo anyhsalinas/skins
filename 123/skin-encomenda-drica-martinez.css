@@ -20,7 +20,7 @@
 **/
 
 
-#player {background: transparent; font-size: 10px; cursor: default;}
+#player {background: transparent; font-size: 10px; cursor: default; background: pink;}
 #player .mainImage{}
 
 #player #baseLeft {width: 100%;}
