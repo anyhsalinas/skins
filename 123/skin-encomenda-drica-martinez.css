@@ -47,7 +47,7 @@
 #player #seekerBuffered{background: transparent;}
 #player #seekerSliderBase{background: transparent;}
 
-#player #volume{left: 42px; width: 35px; height: 7px; border: 1px solid #888; border-radius: 2px; margin-top: 14px;}
+#player #volume{display:none; left: 54px; width: 35px; height: 7px; border: 1px solid #888; border-radius: 2px; margin-top: 14px;}
 #player #volume:before {content: "Volume:"; position: absolute; left: 0px; bottom: 100%; margin-bottom: 2px; font-size: 7px; line-height: 7x; letter-spacing: .5px; font-family: 'Armata', Helvetica, sans-serif; text-transform: uppercase; }
 #player #volumeSlider{width: 2px; height: 5px; background: #888;}
 
