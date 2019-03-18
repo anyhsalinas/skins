@@ -6,7 +6,7 @@
     by Anyh Salinas ©
     www.anyhs-themes.tumblr.com
            
-    (Last update: 18/03/2019 — 10:03hrs)
+    (Last update: 18/03/2019 — 11:18hrs)
 
 
     TERMS OF USE:
@@ -25,22 +25,22 @@
 
 #player #baseLeft {width: 100%;}
 #player #baseRight {width: 0px;}
-#player .button {width: 12px;}
+#player .button {width: 22px;}
 
 
 
 #player #play {background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/play.png'); }
 #player #pause {background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/pause.png');}
-#player #play, #player #pause {left: 32px; width: 12px;}
-#player #previous {left: 20px; width: 12px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/previous.png'); }
-#player #next {left: 44px; width: 12px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/next.png');}
+#player #play, #player #pause {left: 42px; width: 22px;}
+#player #previous {left: 20px; width: 22px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/previous.png'); }
+#player #next {left: 64px; width: 22px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/next.png');}
 
 #player #title, #player #jp-title {display: none;}
 
 #player #tooltip{right: 196px; display: none;}
 #player #timer{right: 120px; display: none;}
 
-#player #list{left: 56px; width: 12px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/menu.png'); }
+#player #list{left: 86px; width: 22px; background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/menu.png'); }
 
 #player #seeker{right: 320px; display: none;}
 #player #seekerBase{background: transparent; border: none;}
