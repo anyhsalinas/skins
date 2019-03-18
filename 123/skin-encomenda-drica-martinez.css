@@ -6,7 +6,7 @@
     by Anyh Salinas ©
     www.anyhs-themes.tumblr.com
            
-    (Last update: 18/03/2019 — 09:05hrs)
+    (Last update: 18/03/2019 — 10:03hrs)
 
 
     TERMS OF USE:
@@ -27,7 +27,7 @@
 #player #baseRight {width: 0px;}
 #player .button {width: 12px;}
 
-#player #play, #player #pause, #player #previous, #player #next, #player #list {cursor: pointer; position: absolute; bottom: 0px;}
+
 
 #player #play {background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/play.png'); }
 #player #pause {background: url('https://raw.githubusercontent.com/anyhsalinas/skins/master/123/pause.png');}
