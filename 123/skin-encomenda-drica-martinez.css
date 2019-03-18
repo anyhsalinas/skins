@@ -23,7 +23,7 @@
 #player {background: transparent; font-size: 10px; cursor: default;}
 #player .mainImage{}
 
-#player #baseLeft {width: 100%;}
+#player #baseLeft {width: 100%; background: pink;}
 #player #baseRight {width: 0px;}
 #player .button {width: 12px; background: red;}
 
